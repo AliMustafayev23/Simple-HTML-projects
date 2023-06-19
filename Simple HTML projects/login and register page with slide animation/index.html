@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - CSS Only Slide Login/Registration</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Cover Box -->
+      <div id="cover">
+        <!-- Sign Up Section -->
+        <h1 class="sign-up">Hello, Friend!</h1>
+        <p class="sign-up">
+          Enter your personal details<br />
+          and start a journey with us
+        </p>
+        <a class="button sign-up" href="#cover">Sign Up</a>
+        <!-- Sign In Section -->
+        <h1 class="sign-in">Welcome Back!</h1>
+        <p class="sign-in">
+          To keep connected with us please<br />
+          login with your personal info
+        </p>
+        <br />
+        <a class="button sub sign-in" href="#">Sign In</a>
+      </div>
+      <!-- Login Box -->
+      <div id="login">
+        <h1>Sign In</h1>
+        <div class="logos">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+        </div>
+        <p>or use your email account:</p>
+        <form>
+          <input type="email" placeholder="Email" autocomplete="off" /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            autocomplete="off"
+          /><br />
+          <a id="forgot-pass" href="#">Forgot your password?</a><br />
+          <input class="submit-btn" type="submit" value="Sign In" />
+        </form>
+      </div>
+      <!-- Register Box -->
+      <div id="register">
+        <h1>Create Account</h1>
+        <div class="logos">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+        </div>
+        <p>or use your email for registration:</p>
+        <form>
+          <input type="text" placeholder="Name" autocomplete="off" /><br />
+          <input type="email" placeholder="Email" autocomplete="off" /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            autocomplete="off"
+          /><br />
+          <input class="submit-btn" type="submit" value="Sign Up" />
+        </form>
+      </div>
+    </div>
+    <!-- END Container -->
+    <!-- partial -->
+  </body>
+</html>
